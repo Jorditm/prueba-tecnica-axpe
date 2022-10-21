@@ -28,6 +28,3 @@ Comentarios en el código para mayor aclaración de los metódos y lógica emple
  - Una vez descargado el proyecto, acceder a la carpeta raíz del proyecto a través de la terminal y ejectuar el comando `npm install`.
  - Una vez instaladas todas las dependencias, iniciar el proyecto a través de la terminal con el comando  `npm start`.
  - Se abrirá automáticamente el puerto de desarrollo, en este caso será  [http://localhost:3000](http://localhost:3000).
-
-
-
