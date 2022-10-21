@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# Prueba técnica Axpe Consulting
+
+## Primera parte (parte teórica)
+
+Mi solucion propuesta es la siguiente.
+
+
+
+
+
+
+
+
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
