@@ -4,86 +4,30 @@
 
 Mi solucion propuesta es la siguiente.
 
-código: [a link](https://github.com/Jorditm/prueba-tecnica-axpe/blob/feature/requisitos/primera-parte/RegisteredUser.js)
+[Aquí el código](https://github.com/Jorditm/prueba-tecnica-axpe/blob/feature/requisitos/primera-parte/RegisteredUser.js)
 
+### Cambios en el diagrama
 ![img](https://github.com/Jorditm/prueba-tecnica-axpe/blob/feature/requisitos/primera-parte/class-diagram.png)
 
+## Segunda parte (parte práctica)
+
+Mi método para llevar a cabo el proyecto ha sido de la siguiente manera:
+ - Para el routing del proyecto lo he hecho a través de react-router-dom para poder mostrar la página actual en la URL como solcitan los requisitos.
+ - Scrollear genera una animación en la que al scrollear hacía abajo el header se esconde, scrolleando hacía arriba el header aparece. Creado a través del método window.onscroll dónde continuamente leemos la posición de la pantalla y creamos un condicional para que trabaje de una manera u otra.
+ - lógica implementada en "añadir favoritos". Al pulsar el botón de "Add to favorites" añade este obejto meetup a un state de tipo array, que posteriormente será leído para visualizar esta array en su página correspondiente.
+ - lógica implementada para "borrar favoritos". Al pulsat el botón de "Remove from favorites" activa una función en la cual filtra el meetup que estamos pulsando y crea una array nueva excluyendo el meetup pulsado.
+ - lógica implementada en "crear meetups". Al rellenar el formulario guardamos la información de cada campo en un state de tipo objecto con sus correspondientes parámetros. Una vez pulsamos el boton de "Add Meetup" este state de tipo objeto se añade a la array donde contiene todos los meetups, la cual se muestra en la página "All Meetups" y se actualiza cada vez que añadimos un meetup.
+ - Al no tener base de datos dónde almacenar favoritos y no editar el documento data.json, se han almacenado los nuevos meetups y los favoritos en localStorage. Así al refrescar página seguimos teniendo los datos disponibles
+ - Burger menu simple implementada para hacer un diseño ligeramente más responsive
+
+
+Comentarios en el código para mayor aclaración de los metódos y lógica empleados.
+
+## Para inciar el proyecto
+
+ - Una vez descargado el proyecto, acceder a la carpeta raíz del proyecto a través de la terminal y ejectuar el comando `npm install`.
+ - Una vez instaladas todas las dependencias, iniciar el proyecto a través de la terminal con el comando  `npm start`.
+ - Se abrirá automáticamente el puerto de desarrollo, en este caso será  [http://localhost:3000](http://localhost:3000).
 
 
 
-
-
-
- 
-
-
-Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
