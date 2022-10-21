@@ -1,4 +1,23 @@
-# Getting Started with Create React App
+# Prueba técnica Axpe Consulting
+
+## Primera parte (parte teórica)
+
+Mi solucion propuesta es la siguiente.
+
+código: [a link](https://github.com/Jorditm/prueba-tecnica-axpe/blob/feature/requisitos/primera-parte/RegisteredUser.js)
+
+![img](https://github.com/Jorditm/prueba-tecnica-axpe/blob/feature/requisitos/primera-parte/class-diagram.png)
+
+
+
+
+
+
+
+ 
+
+
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
